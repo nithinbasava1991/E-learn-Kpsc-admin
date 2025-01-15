@@ -11,7 +11,7 @@ const AuthFooter = () => (
       {/* berrydashboard.io */}
     </Typography>
     <Typography variant="subtitle2" component={Link} href="https://codedthemes.com" target="_blank" underline="hover">
-      &copy; walkinsoftware.com
+      &copy; WakinSoftwaresBharatPvtLtd
     </Typography>
   </Stack>
 );

@@ -8,7 +8,7 @@ import ButtonBase from '@mui/material/ButtonBase';
 import config from 'config';
 import Logo from 'ui-component/Logo';
 import { MENU_OPEN } from 'store/actions';
-
+ 
 // ==============================|| MAIN LOGO ||============================== //
 
 const LogoSection = () => {

@@ -1,1 +1,0 @@
-import{b as a,c as r}from"./index-DvYQWpR8.js";const o=async e=>await a({method:"GET",url:`${r}/role/v1/getAllRoleByPagination/{pageNumber}/{pageSize}?pageNumber=0&pageSize=10`,headers:e}),s=async e=>await a({method:"GET",url:`${r}/role/v1/getAllRoles`,headers:e});export{o as a,s as f};

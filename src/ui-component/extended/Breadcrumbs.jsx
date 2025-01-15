@@ -12,7 +12,7 @@ import Typography from '@mui/material/Typography';
 import MuiBreadcrumbs from '@mui/material/Breadcrumbs';
 
 // project import
-import navigation from 'menu-items/marketing';
+import navigation from 'menu-items/dashboard';
 
 // assets
 import { IconChevronRight, IconTallymark1 } from '@tabler/icons-react';

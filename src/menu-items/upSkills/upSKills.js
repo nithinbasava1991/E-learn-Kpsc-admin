@@ -8,12 +8,12 @@ const icons = { IconLayoutDashboard, IconDashboard };
 
 const upSKills = {
   id: 'upSkills',
-  title: 'Upskills',
+  title: 'UpSkills',
   type: 'group',
   children: [
     {
       id: 'default',
-      title: 'Upskills',
+      title: 'UpSKills',
       type: 'item',
       url: '/upSkills',
       icon: icons.IconLayoutDashboard,

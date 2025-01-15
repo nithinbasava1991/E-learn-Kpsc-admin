@@ -3,18 +3,17 @@ import { Typography } from '@mui/material';
 import { useLocation } from 'react-router-dom';
 import NavGroup from './NavGroup';
 
-import marketingMenuItems from 'menu-items/marketing';
-import kpscMenuItems from 'menu-items/kpsc';
-import academyMenuItems from 'menu-items/kpsc';
+import dashboardMenuItems from 'menu-items/dashboard';
+import academyMenuItems from 'menu-items/academy';
 import upSkillsMenuItems from 'menu-items/upSkills';
 import ecommerceMenuItems from 'menu-items/ecommerce';
 
 // Function to get menu items based on the current path
 const getMenuItems = (path) => {
-  if (path.startsWith('/marketing')) {
-    return marketingMenuItems.items;
-  } else if (path.startsWith('/kpsc')) {
-    return kpscMenuItems.items;
+  if (path.startsWith('/dashboard')) {
+    return dashboardMenuItems.items;
+  } else if (path.startsWith('/ecommerce')) {
+    return ecommerceMenuItems.items;
   } else if (path.startsWith('/academy')) {
     return academyMenuItems.items;
   } else if (path.startsWith('/upSkills')) {

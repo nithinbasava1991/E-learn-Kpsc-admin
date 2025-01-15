@@ -1,3 +1,3 @@
-// export const BaseUrl = 'https://virtullearning.cloudjiffy.net/edukartadmin';
+// export const BaseUrl = 'https://virtullearning.cloudjiffy.net/edukartorg';
 
-export const BaseUrl = 'https://virtullearning.cloudjiffy.net/elearnkpscadmin';
+export const BaseUrl = 'https://virtullearning.cloudjiffy.net/elearnkpsuser';

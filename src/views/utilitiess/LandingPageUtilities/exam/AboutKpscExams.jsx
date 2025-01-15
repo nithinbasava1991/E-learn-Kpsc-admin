@@ -19,7 +19,7 @@ const AboutKpscExams = () => {
       <Typography
         variant="h4"
         gutterBottom
-        sx={{ fontWeight: 'bold', color: '#1a202c' }}
+        sx={{ fontWeight: 'bold', color: '#1a202c',fontSize: { xs: '1.8rem', md: '2.4rem' } }}
       >
         About KPSC Exams
       </Typography>

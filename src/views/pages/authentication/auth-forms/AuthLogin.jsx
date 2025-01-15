@@ -86,7 +86,7 @@ const AuthLogin = ({ ...others }) => {
               toast.addEventListener('mouseleave', Swal.resumeTimer);
             }
           });
-          navigate('/');
+          navigate('/login');
         } else {
           sessionStorage.setItem('user', JSON.stringify(response.data));
           Swal.fire({
@@ -111,7 +111,7 @@ const AuthLogin = ({ ...others }) => {
             container.style.marginTop = '80px';
           }
 
-          navigate('/marketing');
+          navigate('/dashboard');
         }
         setSubmitting(false);
       })
@@ -144,8 +144,8 @@ const AuthLogin = ({ ...others }) => {
               Sign in with Google
             </Button>
           </AnimateButton>
-        </Grid>
-        <Grid item xs={12}>
+        </Grid> */}
+        {/* <Grid item xs={12}>
           <Box
             sx={{
               alignItems: 'center',

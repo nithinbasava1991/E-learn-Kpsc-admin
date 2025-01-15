@@ -32,27 +32,13 @@ ListItemWrapper.propTypes = {
 const SwitchList = ({ setSelectedSwitch, setOpen }) => {
   const theme = useTheme();
   const navigate = useNavigate();
-  const handleMarketing = () => {
-    setSelectedSwitch('Marketing');
-    navigate('/marketing');
+  const handleDash = () => {
+    setSelectedSwitch('Dashboard');
+    navigate('/dashboard');
     setOpen(false);
   };
 
-  const handleKpsc = () => {
-    setSelectedSwitch('KPSC');
-    navigate('/kpsc');
-    setOpen(false);
-  };
-  const handleAcademy = () => {
-    setSelectedSwitch('Academy');
-    navigate('/academy');
-    setOpen(false);
-  };
-  const handleUpSkills = () => {
-    setSelectedSwitch('Upskills');
-    navigate('/upSkills');
-    setOpen(false);
-  };
+  
 
   return (
     <List
@@ -76,18 +62,12 @@ const SwitchList = ({ setSelectedSwitch, setOpen }) => {
       }}
     >
       <ListItemWrapper>
-        <ListItem alignItems="center" onClick={handleMarketing}>
-          <ListItemText primary="Marketing" />
+        <ListItem alignItems="center" onClick={handleDash}>
+          <ListItemText primary="Dashboard" />
         </ListItem>
       </ListItemWrapper>
       <Divider />
-      <ListItemWrapper>
-        <ListItem alignItems="center" onClick={handleKpsc}>
-          <ListItemText primary="KPSC" />
-        </ListItem>
-      </ListItemWrapper>
-      {/* <Divider />
-      <ListItemWrapper>
+      {/* <ListItemWrapper>
         <ListItem alignItems="center" onClick={handleAcademy}>
           <ListItemText primary="Academy" />
         </ListItem>
@@ -106,10 +86,7 @@ const SwitchList = ({ setSelectedSwitch, setOpen }) => {
       </ListItemWrapper>
       <Divider />
       <ListItemWrapper>
-        <ListItem
-          alignItems="center"
-          // onClick={handleEcom}
-        >
+        <ListItem alignItems="center" onClick={handleEcom}>
           <ListItemText primary="Ecommerce" />
         </ListItem>
       </ListItemWrapper>

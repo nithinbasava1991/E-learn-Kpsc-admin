@@ -32,14 +32,8 @@ const SwitchSection = () => {
 
   useEffect(() => {
     const path = location.pathname;
-    if (path.includes('/marketing')) {
-      setSelectedSwitch('Marketing');
-    } else if (path.includes('/ecommerce')) {
-      setSelectedSwitch('Ecommerce');
-    } else if (path.includes('/kpsc')) {
-      setSelectedSwitch('Kpsc');
-    } else if (path.includes('/upSkills')) {
-      setSelectedSwitch('Upskills');
+    if (path.includes('/dashboard')) {
+      setSelectedSwitch('Dashboard');
     }
   }, [location]);
 
@@ -151,14 +145,14 @@ const SwitchSection = () => {
                         <Grid item>
                           <Stack direction="row" spacing={2}>
                             <Typography variant="subtitle1">All Switches</Typography>
-                            <Chip
+                            {/* <Chip
                               size="small"
-                              label="02"
+                              label="08"
                               sx={{
                                 color: theme.palette.background.default,
                                 bgcolor: theme.palette.success.dark
                               }}
-                            />
+                            /> */}
                           </Stack>
                         </Grid>
                       </Grid>

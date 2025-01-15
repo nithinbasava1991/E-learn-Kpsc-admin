@@ -4,7 +4,7 @@ import { BaseUrl } from 'BaseUrl';
 export const fetchBanner = async (headers) => {
   return await axios({
     method: 'get',
-    url: `${BaseUrl}/advertisement/v1/getAllAdvertisementByPagination/{pageNumber}/{pageSize}?pageNumber=0&pageSize=10`,
+    url: `${BaseUrl}/advertisement/v1/queryAllAdvertisement`,
     headers: headers
   });
 };

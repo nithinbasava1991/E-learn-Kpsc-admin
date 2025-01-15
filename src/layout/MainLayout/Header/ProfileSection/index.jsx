@@ -94,6 +94,7 @@ const ProfileSection = () => {
       }
     });
   };
+
   return (
     <>
       <Chip

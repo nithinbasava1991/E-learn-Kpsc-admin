@@ -31,52 +31,6 @@ const upSkillsUtilities = {
   type: 'group',
   children: [
     {
-      id: 'masters',
-      title: 'Masters',
-      type: 'collapse',
-      icon: icons.IconWindmill,
-      url: null,
-      children: [
-        {
-          id: 'category',
-          title: 'Category',
-          type: 'item',
-          url: '/upSkills/category',
-          breadcrumbs: false
-        }
-      ]
-    },
-    {
-      id: 'upskill',
-      title: 'Upskills',
-      type: 'collapse',
-      icon: icons.IconPaperBag,
-      url: null,
-      children: [
-        {
-          id: 'courses',
-          title: 'Upskills Courses',
-          type: 'item',
-          url: '/upSkills/courses',
-          breadcrumbs: false
-        },
-        {
-          id: 'modules',
-          title: 'Upskills Modules',
-          type: 'item',
-          url: '/upSkills/modules',
-          breadcrumbs: false
-        },
-        {
-          id: 'topics',
-          title: 'Upskills Topics',
-          type: 'item',
-          url: '/upSkills/topics',
-          breadcrumbs: false
-        }
-      ]
-    },
-    {
       id: 'payments',
       title: 'Payments',
       type: 'item',

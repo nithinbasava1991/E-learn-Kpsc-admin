@@ -18,7 +18,7 @@ const CustomPrograms = () => {
 
   return (
     <Box sx={{ py: 5, px: 2, textAlign: 'center', backgroundColor: '#f9fafb', backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover' }}>
-      <Typography variant="h4" gutterBottom sx={{ fontWeight: 'bold', color: '#1a202c' }}>Our courses are tailor-made for working professionals.</Typography>
+      <Typography variant="h4" gutterBottom sx={{ fontWeight: 'bold', color: '#1a202c',fontSize: { xs: '1.8rem', md: '2.4rem' } }}>Our courses are tailor-made for working professionals.</Typography>
       <img src={image} alt="Description" style={{ width: '250px', height: 'auto', marginTop: "-20px" }} />
       <Grid container spacing={3} sx={{ justifyContent: 'center', marginTop: "-30px" }}>
         <Grid item xs={12} sm={4}>
